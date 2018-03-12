@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Teresa Tran's Portfolio
 
 You can use the [editor on GitHub](https://github.com/tranteresa/portfolio/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
