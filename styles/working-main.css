@@ -1,0 +1,237 @@
+
+/* New */
+
+
+
+
+
+OLD /* MAIN */
+h2 {
+    font-size: 1.625rem;
+    font-weight: 200;
+    margin-bottom: 1rem;
+    margin-top: 2.625rem;
+}
+
+
+/* ----- bold ----- */
+b {
+    font-weight: 700;
+}
+
+strong {
+    font-weight: 700;
+}
+
+p, ul, ol {
+    color: #555;
+    position: relative;
+    display: block;
+    font-weight: 300;
+    letter-spacing: 0.01rem;
+    padding: 0;
+    font-size: 1rem;
+    line-height: 1.375em;
+    margin: 0 0 1rem;
+    clear: both;
+}
+
+ol, ul {
+    margin: 1rem inherit 1rem;
+}
+main ul li {
+    list-style-type: disc;
+}
+
+main ol li, main ul li {
+    list-style-position: outside;
+    padding-left: 0;
+    /margin-left: 1.5rem;
+    margin-bottom: 0.625rem;
+    line-height: 1.375em;
+}
+
+
+
+em {
+    font-style: italic;
+}
+
+a, a:link, a:visited {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px mediumvioletred solid;
+}
+
+.links-container li a, .links-container li a:hover, .links-container li a:active {
+}
+
+a:hover, a:active{
+    color: mediumvioletred;
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all  0.2s ease;
+    -ms-transition: all  0.2s ease;
+    -o-transition: all  0.2s ease;
+    transition: all  0.2s ease;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.rows {
+    clear: both;
+}
+
+
+/* ----- CONTACT ----- */
+
+footer {
+    max-width: 35.75rem; margin: auto;
+}
+
+.contact {
+    position: relative;
+    z-index: 1;
+    padding: 4.25rem 1rem 2.625rem ;
+}
+
+.contact h5 {
+    font-size: 1.625rem;
+    font-weight: 100;
+}
+
+.contact-contents {
+    margin: auto;
+    padding: 0;
+}
+
+.contact-title {
+    /text-transform: uppercase;
+    /letter-spacing: .05rem;
+}
+.contact-title, .contact-description {
+    text-align: center;
+    line-height: 1.375em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer .contact-info, footer .contact-info li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+.contact-text a, .contact-divider p {
+    font-family: 'poppins', serif;
+    font-weight: 300;
+    opacity: 0.7;
+    margin: 0 0.15rem 0.625rem;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 0.1rem;
+}
+
+.contact-text a:hover {
+    color: mediumvioletred;
+    transition: all 0.3s ease-out;
+}
+
+.contact-symbols {
+    position: relative;
+    top: 1px;
+    text-decoration: none;
+    border: none;
+    display: none
+}
+
+.copyright, .copyright p{
+    font-size: .85rem;
+    color: #999;
+    margin: 1rem auto 0;
+    text-align: center;
+}
+
+
+
+/* ----- OTHER ----- */
+.hero {
+    padding: 7.75rem 1rem .625rem;
+    transition: all 0.5s ease;
+}
+
+.hero-content {
+    max-width: 960px;
+    padding: 0;
+    margin: 0 auto 2.625rem;
+}
+
+.fold {
+    text-align: center;
+    animation-delay: 2.5s;
+    clear: both;
+    padding-top: 1.625rem;
+    margin-top: 2.625rem;
+}
+
+.fold a {
+    color: inherit;
+    opacity: .8;
+    font-size: 1.625rem;
+    padding: 1rem 2.25rem;
+    border: 0;
+    text-decoration: none;
+}
+
+.fold a:hover {
+    color: mediumvioletred;
+}
+
+/* ----- MEDIA QUERIES ----- */
+@media (max-width: 640px) {
+    main ol li, main ul li {
+    margin-left: 1.25rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .contact-contents {
+        
+    }
+    .contact-title, .contact-description, .contact-info {
+        text-align: left;
+    }
+    .contact-info {
+        margin-bottom: 2.625rem;
+    }
+}
+
+@media (max-width: 375px) {
+        
+    .fold a {
+        font-size: 1.5rem;
+        padding: 1.25rem 5rem;
+        border: 0;
+        text-decoration: none;
+    }
+}
+
+
+
+

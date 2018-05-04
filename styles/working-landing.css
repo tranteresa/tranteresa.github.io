@@ -1,0 +1,647 @@
+
+
+
+
+
+/*
+.projects h1 {
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    letter-spacing: .05rem;
+    font-weight: 300;
+    font-size: 3rem;
+    text-transform: lowercase;
+    padding: 0;
+    margin: 1.625rem 0;
+}
+
+
+.projects .case {
+    margin-top: 1.625rem;
+    margin-bottom: .625rem;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    -webkit-transition: all 0.1s ease-in;
+    -moz-transition: all  0.1s ease-in;
+    -ms-transition: all  0.1s ease-in;
+    -o-transition: all  0.1s ease-in;
+    transition: all  0.1s ease-in;
+    -webkit-box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, .3);
+    -moz-box-shadow:    0px 3px 4px 0px rgba(50, 50, 50, .3);
+    box-shadow:         0px 3px 4px 0px rgba(50, 50, 50, .3);
+}
+
+.case:hover {
+    /background: #fcfcfc;
+    /background-color: rgba(250, 250, 250,.45);
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all  0.2s ease-in;
+    -ms-transition: all  0.2s ease-in;
+    -o-transition: all  0.2s ease-in;
+    transition: all  0.2s ease-in;
+}*/
+
+/*.projects .case.coming-soon, .case.coming-soon:hover {
+    background: rgba(250, 250, 250,.05);
+    -webkit-box-shadow: 0 0 0 0 rgba(0,0,0,0);
+    -moz-box-shadow:    0 0 0 0 rgba(0,0,0,0);
+    box-shadow:         0 0 0 0 rgba(0,0,0,0);
+}
+
+.case.coming-soon {
+    /opacity: 0.7;
+    background: rgba(250, 250, 250,.05);
+    -webkit-box-shadow: 0 0 0 0 rgba(0,0,0,0);
+    -moz-box-shadow:    0 0 0 0 rgba(0,0,0,0);
+    box-shadow:         0 0 0 0 rgba(0,0,0,0);
+}
+
+.case.coming-soon .case-contents:hover {
+    /opacity: 0.85;
+}
+
+.case.coming-soon .case-title, .case.coming-soon .case-role {
+    color: #fcfcfc;
+    /opacity: 0.3;
+}
+
+.case.coming-soon .para {
+    color: #fcfcfc;
+    /opacity: 0.5;
+    margin-bottom: .4rem;
+}
+
+.coming-soon div .button.cs-button {
+    background: rgba(200,200,200,0.1);
+    border: none;
+    color: #f0f0f0;
+    opacity: 0.6;
+}
+
+.coming-soon .button.cs-button:hover {
+    cursor: default;
+}
+
+.coming-soon .button {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.case .para, .case-title, .case-role {
+    color: #e5e5e5;
+}
+
+.case div, .case-role, .case p, .cs-button {
+    font-weight: 200;
+}
+
+.case-contents {
+    padding: 1.625rem 1.625rem 2.625rem; 
+    opacity: 0.85;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all  0.2s ease-in;
+    -ms-transition: all  0.2s ease-in;
+    -o-transition: all  0.2s ease-in;
+    transition: all  0.2s ease-in;
+}
+
+.case-contents:hover {
+    opacity: 1;
+}
+.case .para {
+    margin-bottom: 2.625rem;
+    font-size: 1.625rem;
+    line-height: 1.375em;
+    font-weight: 300;
+    letter-spacing: -0.01rem;
+    opacity: 0.85;
+}
+
+*/
+
+.btn-alt { 
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 0.075rem;
+    font-size: .9rem;
+}
+
+
+.case-role {
+    font-size: 1rem;
+    line-height: 1.375em;
+    text-transform: uppercase;
+    letter-spacing: 0.05;
+    border: none;
+    padding: 0;
+    margin: 1rem 0 2.625rem;
+}
+
+
+
+.crop {
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: .75rem;
+}
+
+.button.cs-button {
+    font-weight: 500;
+    background-color: #f5f5f5;
+    border-color: #f5f5f5;
+    color: #555;
+    margin: 0rem;
+}
+
+.button.button-primary:hover {
+    background-color: #CAA478;
+    border-color: #CAA478;
+    color: #555;
+}
+
+.case .btn a {
+    color: #333;
+}
+
+
+/* ----- ABOUT ----- */
+.about {
+   / background-color: #fafafa;
+    padding: 4.25rem 1rem 0rem;
+}
+
+.about .container {
+    max-width: 640px;
+}
+
+/.about p {
+    font-weight: 300;
+}
+
+.about h5 {
+    font-weight: 300;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    text-align: center;
+}
+
+.bio p {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.bio-text a {
+    color: #555;
+    border-bottom: 1px solid #ba187d;
+}
+
+.bio-text a:hover {
+    color:#ba187d;
+    border-color: #CAA478;
+}
+
+.bio .first {
+    margin: 1.625rem 0 2.625rem;
+    font-family: 'poppins', serif;
+    color: #555;
+    line-height: 1.4em;
+}
+
+.bio .first a {
+    padding-bottom: 2px;
+}
+
+.bio {
+    margin-bottom: 0rem;
+}
+
+
+
+
+
+
+
+OLDER////
+/* ----- HERO ----- */
+
+
+.hero {
+    padding: 8.25rem 0 1.625rem;
+    transition: all 0.5s ease;
+    text-align: center;
+    /*color: #e0e0e0;
+    /text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.26);
+    /background-image: 
+        /*linear-gradient(rgba(186, 24, 125, .5), rgba(186, 24, 125, 1)),*/
+       /*linear-gradient(to top left, rgba(102, 0, 51, .2), rgba(26, 41, 128,0.2)),*/
+       /*linear-gradient(to left, rgba(250, 250, 250, .9), rgba(245, 245, 245, .8)),*/
+        linear-gradient(to left, rgba(0,0,0,.25), rgba(0,0,0,.25)),
+        url(/assets/bg-patterns/CrystalTong-copy.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.parallax {
+    /* The image used */
+    padding-top: 5rem;
+    background-image: url("bridge-3px.png");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.myImage {
+    width: 280px;
+    height: 280px;
+    margin: 1.625rem auto 1.625rem;
+    background-image: 
+                /*linear-gradient(to left, rgba(0,0,0,.25), rgba(0,0,0,.25)),*/
+        url(/assets/CrystalTongImg.png);
+    background-size: cover;
+}
+
+.hero-content .myName {
+    margin-top: 0;
+    margin: 0;
+}
+
+.hero .myTitle {
+    color: #4A4A4A;
+    margin: 0rem 0 1rem;
+}
+
+.hero .myGreeting {
+    clear: both;
+}
+
+.fold.animated {
+    animation-delay: .75s;
+    /color: mediumvioletred;
+}
+
+.hero .description {
+    font-weight: 300;
+    font-size: 1.625rem;
+    animation-delay: .5s;
+    margin: 4.25rem 0 0;
+    /color: mediumvioletred;
+}
+
+.hero-pop {
+    color: mediumvioletred;
+    font-weight: 200;
+    margin-top: -.5rem;
+}
+
+
+
+/* ----- CASE STUDIES ----- */
+
+.projects {
+    position: relative;
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    background: url("/assets/bg-icons-3.png");
+    background-repeat: repeat;
+    
+    background: #ba187d; 
+    background: -webkit-linear-gradient(to top, #1A2980, #ba187d);  
+    background: linear-gradient(to top, #1A2980, #ba187d); 
+}
+
+.projects h1 {
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    letter-spacing: .05rem;
+    font-weight: 300;
+    font-size: 1.625rem;
+    /text-transform: uppercase;
+    padding: 0;
+    margin: 1.625rem 0;
+    color: #fcfcfc;
+    opacity: 0.8;
+}
+
+
+.projects .case {
+    background-color: rgba(250, 250, 250,.15);
+    margin-top: 1.625rem;
+    margin-bottom: .625rem;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    -webkit-transition: all 0.1s ease-in;
+    -moz-transition: all  0.1s ease-in;
+    -ms-transition: all  0.1s ease-in;
+    -o-transition: all  0.1s ease-in;
+    transition: all  0.1s ease-in;
+    -webkit-box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, .3);
+    -moz-box-shadow:    0px 3px 4px 0px rgba(50, 50, 50, .3);
+    box-shadow:         0px 3px 4px 0px rgba(50, 50, 50, .3);
+}
+
+/*.case:hover {
+    /background: #fcfcfc;
+    /background-color: rgba(250, 250, 250,.45);
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all  0.2s ease-in;
+    -ms-transition: all  0.2s ease-in;
+    -o-transition: all  0.2s ease-in;
+    transition: all  0.2s ease-in;
+}*/
+
+/*.projects .case.coming-soon, .case.coming-soon:hover {
+    background: rgba(250, 250, 250,.05);
+    -webkit-box-shadow: 0 0 0 0 rgba(0,0,0,0);
+    -moz-box-shadow:    0 0 0 0 rgba(0,0,0,0);
+    box-shadow:         0 0 0 0 rgba(0,0,0,0);
+}*/
+
+.case.coming-soon {
+    /opacity: 0.7;
+    background: rgba(250, 250, 250,.05);
+    -webkit-box-shadow: 0 0 0 0 rgba(0,0,0,0);
+    -moz-box-shadow:    0 0 0 0 rgba(0,0,0,0);
+    box-shadow:         0 0 0 0 rgba(0,0,0,0);
+}
+
+.case.coming-soon .case-contents:hover {
+    /opacity: 0.85;
+}
+
+.case.coming-soon .case-title, .case.coming-soon .case-role {
+    color: #fcfcfc;
+    /opacity: 0.3;
+}
+
+.case.coming-soon .para {
+    color: #fcfcfc;
+    /opacity: 0.5;
+    margin-bottom: .4rem;
+}
+
+.coming-soon div .button.cs-button {
+    background: rgba(200,200,200,0.1);
+    border: none;
+    color: #f0f0f0;
+    /opacity: 0.6;
+}
+
+.coming-soon .button.cs-button:hover {
+    cursor: default;
+}
+
+.coming-soon .button {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.case .para, .case-title, .case-role {
+    color: #e5e5e5;
+}
+
+.case div, .case-role, .case p, .cs-button {
+    font-weight: 200;
+}
+
+.case-contents {
+    padding: 1.625rem 1.625rem 2.625rem; 
+    opacity: 0.85;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all  0.2s ease-in;
+    -ms-transition: all  0.2s ease-in;
+    -o-transition: all  0.2s ease-in;
+    transition: all  0.2s ease-in;
+}
+
+.case-contents:hover {
+    opacity: 1;
+}
+.case .para {
+    margin-bottom: 2.625rem;
+    font-size: 1rem;
+    line-height: 1.375em;
+    font-weight: 300;
+    letter-spacing: -0.01rem;
+    opacity: 0.85;
+}
+
+.btn-alt { 
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 0.075rem;
+    font-size: .9rem;
+}
+.case a {
+    color: #e5e5e5;
+}
+
+.case-title {
+    font-family: 'poppins', serif;
+    font-size: 1.5rem;
+    line-height: 1.375em;
+    margin: 0;
+/    border-bottom: 1px solid;
+/    padding-bottom: 1rem;
+}
+
+.case-role {
+    font-size: 0.75rem;
+    line-height: 1.375em;
+    text-transform: uppercase;
+    letter-spacing: 0.05;
+    border: none;
+    padding: 0;
+    margin: 1rem 0 2.625rem;
+}
+
+img {
+    width: 100%;
+}
+
+.crop {
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: .75rem;
+}
+
+.button.cs-button {
+    font-weight: 700;
+    background-color: #f5f5f5;
+    border-color: #f5f5f5;
+    color: #555;
+    margin: 0rem;
+}
+
+.button.button-primary:hover {
+    background-color: #f5f5f5;
+    border-color: #f5f5f5;
+    color: #555;
+}
+
+.case .btn a {
+    color: #333;
+}
+
+
+/* ----- ABOUT ----- */
+.about {
+   / background-color: #fafafa;
+    padding: 4.25rem 1rem 0rem;
+}
+
+.about .container {
+    max-width: 640px;
+}
+
+/.about p {
+    font-weight: 300;
+}
+
+.about h5 {
+    font-weight: 300;
+    font-size: 1.625rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+}
+
+.bio p {
+    font-size: 18px;
+}
+
+.bio-text a {
+    color: #555;
+    border-bottom: 1px solid #ba187d;
+}
+
+.bio-text a:hover {
+    color:#ba187d;
+    border-color: mediumvioletred;
+}
+
+.bio .first {
+    margin: 1.625rem 0 2.625rem;
+    font-family: 'playfair display', serif;
+    color: #555;
+    line-height: 1.4em;
+}
+
+.bio .first a {
+    padding-bottom: 2px;
+}
+
+.bio {
+    margin-bottom: 0rem;
+}
+
+    .hero, .about, .links-container ul, nav, .projects {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+/* ----- MEDIA QUERIES WIDTH -----*/
+
+@media (max-width: 768px) {
+    .hero, .about, .links-container ul, nav, .projects, .contact {
+    }
+    
+    .hero .myTitle {
+        font-size: 2.625rem;
+        letter-spacing: 0rem;
+    }
+    
+        
+    .myGreeting {
+        font-size: 1.25rem;
+    }
+    
+    .myImage {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .about, .projects {
+        padding-bottom: 2.625rem;
+    }
+    
+    .case-contents {
+        padding: 1.625rem 1.625rem 2.625rem;
+    }
+        
+    .case-contents .para {
+        letter-spacing: 0.01rem;
+        font-size: 1.25rem;
+    }
+    
+    .hero .myName {
+        margin-bottom: 1.625rem;
+    }
+    
+    .hero .description {
+        margin-top: 4.25rem;
+    }
+}
+
+@media (max-width: 585px) {
+    .hero {
+        text-align: left;
+        padding-top: 7.25rem;
+    }
+    
+    .hero-content {
+        margin-bottom: 1rem;
+    }
+    
+
+
+    .logo {
+        max-width: 50%;
+        max-height: 50%
+        padding: 2px;
+    }
+    
+    .links-container ul {
+        float: left;
+        padding: 0 1rem;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+}
+
+
+@media (max-width: 375px) {
+    body {
+        font-size: 16px;
+    }
+    
+    p {
+        font-weight: 400;
+    }
+    
+    .hello {
+        font-size: 2.625rem;
+    }
+    .myGreeting {
+        font-size: 1.25rem;
+    }
+    
+     .hero, .about, .links-container ul, nav, .projects, .contact {
+    }
+    
+    .links-container a {
+        font-size: 12px;
+    }
+    
+    .case-contents .para {
+        letter-spacing: 0.01rem;
+    }
+}
