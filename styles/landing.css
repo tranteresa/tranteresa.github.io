@@ -124,8 +124,8 @@ nav {
     background-color: rgb(202,164,120,0.15)
 }
 
-.myImage {
-    display: table;
+.bio-text p {
+    line-height: 2.5rem;
 }
 
 .resume {
@@ -168,6 +168,9 @@ nav {
         background-size: 70%;
     }
     
+    .bio-text {
+        font-size: 1rem;
+    }
 
 }
 
