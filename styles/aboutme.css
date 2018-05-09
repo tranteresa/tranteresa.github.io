@@ -1,0 +1,139 @@
+#casestudies, #about, #contact {
+    z-index: 1;
+}
+
+.about {
+    padding: 5rem 0;
+}
+
+.container {
+    padding: 5rem 0;
+}
+
+.hero, .about, .links-container ul, nav, .projects {
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+/* ----- NAV 
+
+nav {
+    padding-bottom: 10px;
+    background: #F6F6F6;
+    display: inline-block;
+}
+
+.links-container {
+    position: relative;
+    float: right;
+    padding: 1rem;
+    margin: 0;
+}
+
+.links-container ul {
+    float: right;
+    margin: 0;
+    margin-right: -2.625rem;
+}
+
+.links-container li {
+    list-style-type: none;
+    display: table-cell;
+    margin: 0; 
+    padding: 0;
+}
+
+.links-container li a {
+    font-size: 14px;
+    color: #4A4A4A;
+    padding: 0.75rem 0.75rem;
+    margin: 0;
+    border: none;
+    font-weight: 300;
+    letter-spacing: 0.07rem;
+}
+
+----- */
+
+/* ----- ABOUT ----- */
+
+.aboutme {
+	padding: 6rem 0 5rem;
+}
+
+.bio-text p {
+    line-height: 2.5rem;
+}
+
+.resume {
+    text-align: center;
+}
+
+/* ----- MEDIA QUERIES WIDTH ---*/
+@media (max-width: 1200px) {
+    .logo {
+        width: 30%;
+    }
+
+} 
+
+@media (max-width: 900px) {
+
+
+    h2 {
+        font-size: 3rem;
+    }
+    
+    .bio-text {
+        font-size: 1.25rem;
+    }
+
+    .bio-text p {
+        padding-bottom: 2rem;
+    }
+
+}
+
+@media (max-width: 750px) {
+    .logo {
+        width: 30%;
+    }
+
+
+    .bio-text p {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        width: 100%;
+    } 
+
+
+    
+
+}
+
+
+@media (max-width: 550px) {
+    body {
+        font-size: 16px;
+    }
+    .links-container ul {
+        float: left;
+        left: -.5rem;
+        padding: 0;
+        margin-top: 4px;
+    }
+
+    .aboutme {
+        padding-top: 10rem;
+    }
+
+
+}
+
+
+@media (max-width: 375px) {
+
+}

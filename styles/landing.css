@@ -16,7 +16,7 @@
 
 }
 
-/* ----- NAV ----- */
+/* ----- NAV 
 
 nav {
     padding-bottom: 10px;
@@ -53,6 +53,7 @@ nav {
     font-weight: 300;
     letter-spacing: 0.07rem;
 }
+----- */
 
 /* ----- HERO ----- */
 
@@ -121,15 +122,31 @@ nav {
 
 /* ----- ABOUT ----- */
 .about {
-    background-color: rgb(202,164,120,0.15)
+    background-color: rgb(202,164,120,0.15);
 }
+
+
 
 .bio-text p {
     line-height: 2.5rem;
 }
 
-.resume {
+.bio img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+
+}
+
+.more {
     text-align: center;
+}
+
+.divider {
+    width:5px;
+    height:auto;
+    display:inline-block;
 }
 
 
@@ -169,7 +186,7 @@ nav {
     }
     
     .bio-text {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
 }
@@ -219,6 +236,10 @@ nav {
 
     .parallax {
         background-size: 65%;
+    }
+
+    .bio-text {
+        font-size: 1.25rem;
     }
     
 }
