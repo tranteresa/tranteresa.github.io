@@ -183,7 +183,7 @@ nav {
 /* ----- CONTACT ----- */
 
 footer {
-    background-color: #4A4A4A;
+    background-color: #F6F6F6;
 }
 
 .contact-info.row {
@@ -211,7 +211,7 @@ footer {
 
 .copyright {
     text-align: center;
-    color: white;
+    color: #4A4A4A;
     font-size: 1.25rem;
 }
 

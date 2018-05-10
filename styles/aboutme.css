@@ -63,12 +63,18 @@ nav {
 }
 
 .bio-text p {
-    line-height: 2.5rem;
+    line-height: 3rem;
+}
+
+.fun {
+    margin-left: 3rem;
 }
 
 .resume {
     text-align: center;
 }
+
+
 
 /* ----- MEDIA QUERIES WIDTH ---*/
 @media (max-width: 1200px) {
@@ -109,6 +115,13 @@ nav {
         width: 100%;
     } 
 
+    .long.six.columns {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        width: 80%;
+    }
 
     
 

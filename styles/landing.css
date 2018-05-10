@@ -71,6 +71,8 @@ nav {
     background-color: rgba(0,0,0,0);
 }
 
+
+
 .parallax {
     /* The image used */
     background-image: url("../assets/index/bridge.png");
@@ -102,8 +104,8 @@ nav {
     font-size: 1.25rem;
     text-align: center;
     padding-bottom: 10rem;
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
 }
 
 .projects.para {
@@ -122,10 +124,8 @@ nav {
 
 /* ----- ABOUT ----- */
 .about {
-    background-color: rgb(202,164,120,0.15);
+    background-color: #F6F6F6;
 }
-
-
 
 .bio-text p {
     line-height: 2.5rem;
@@ -141,10 +141,11 @@ nav {
 
 .more {
     text-align: center;
+    padding-top: 7rem;
 }
 
 .divider {
-    width:5px;
+    width: 2rem;
     height:auto;
     display:inline-block;
 }
@@ -164,13 +165,26 @@ nav {
     .hero .container {
         padding-top: 3rem;
     }
-
+    .para {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    }
 
 } 
+
+@media (max-width: 950px) {
+    .bio-text {
+        font-size: 1.25rem;
+    }
+}
 
 @media (max-width: 900px) {
     h2 {
         font-size: 3rem;
+    }
+
+    .scroll h5 {
+    padding: 0 5rem;
     }
 
     .hero h1 {
@@ -185,8 +199,17 @@ nav {
         background-size: 70%;
     }
     
-    .bio-text {
-        font-size: 1.5rem;
+
+    .case.four.columns {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        width: 80%;
+    } 
+
+    .case-contents img {
+        padding-bottom: 2rem;
     }
 
 }
@@ -204,16 +227,31 @@ nav {
         font-size: 1.5rem;
     }
 
-
-    .case.four.columns {
+    .short.six.columns {
         display: block;
         margin-left: auto;
         margin-right: auto;
         float: none;
-        width: 80%;
+        width: 100%;
     } 
-    
 
+    .bio-text {
+        padding: 0 6rem;
+    }
+
+    .bio-pic {
+        padding-bottom: 4rem;
+        margin-right: auto;
+        margin-left: auto;
+        float: none;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .bio-text {
+        padding: 0;
+    }
 }
 
 
@@ -238,9 +276,15 @@ nav {
         background-size: 65%;
     }
 
-    .bio-text {
-        font-size: 1.25rem;
+    .bio-pic {
+        padding-top: 5rem;
+        width: 50%;
+
     }
+
+    .divider {
+    width: 1rem;
+}
     
 }
 
