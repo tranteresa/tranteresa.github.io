@@ -32,20 +32,18 @@
     <!---- NAV BAR ---->
     <nav>
         <div  class="navbar row">
-
-            <div class="two columns logo">
+            <div class="one-half column logo">
                 <a href="index.html">
                     <img src="assets/index/logo-64px.png" alt="Teresa Tran"> 
             </div>
 
-            <div class="links-container ten columns">
+            <div class="one-half column links-container">
                 <ul>
-                    <li class="active"><a href="#casestudies">Work</a></li>
+                    <li class="active"><a href="index.html#casestudies">Work</a></li>
                     <li class="active"><a href="about.html">About</a></li>
                     <li class="active"><a href="mailto:hello@teresatran.co?Subject=Hello%20" target="_top">Contact</a></li>
                 </ul>
             </div>
-
         </div>
     </nav>
 
@@ -135,10 +133,10 @@
                 </div>
             </div>
             <div class="more row">
-                    <a href="assets/teresatran_uxresume.pdf" class="button">RESUME PDF</a>
-                    <div class="divider"></div>
-                    <a href="about.html" class="button">MORE ABOUT ME</a>
-                </div>
+                <input type="button" value="RESUME PDF" onclick="openResume() "></a>
+                <div class="divider"></div>
+                <a href="about.html" class="button">MORE ABOUT ME</a>
+
             </div>
         </section>
 
@@ -198,6 +196,6 @@
     </footer>
 
 
-
+    <script src="scripts/index.js"></script>
 </body>
 </html>

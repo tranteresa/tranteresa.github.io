@@ -215,9 +215,6 @@ nav {
 }
 
 @media (max-width: 750px) {
-    .logo {
-        width: 30%;
-    }
 
     .hero h1 {
         font-size: 3rem;
@@ -260,12 +257,6 @@ nav {
         font-size: 16px;
     }
 
-    .links-container ul {
-        float: left;
-        left: -.5rem;
-        padding: 0;
-        margin-top: 4px;
-    }
 
     .hero {
         padding-top: 12rem;
@@ -283,8 +274,9 @@ nav {
     }
 
     .divider {
-    width: 1rem;
-}
+        width: 1rem;
+    }
+
     
 }
 

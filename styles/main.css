@@ -119,6 +119,11 @@ nav {
     padding-bottom: 10px;
     background: #F6F6F6;
     display: inline-block;
+
+}
+
+.logo img {
+    width: 30%;
 }
 
 .links-container {
@@ -219,10 +224,54 @@ footer {
 
 
 /* ----- MEDIA QUERIES ----- */
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 900px) {
+
+    h2 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .logo img {
+        width: 40%;
+    }
+
+}
+
 @media (max-width: 640px) {
     
     main ol li, main ul li {
-    margin-left: 1.25rem;
+        margin-left: 1.25rem;
+    }
+}
+
+@media (max-width: 550px) {
+    body {
+        font-size: 16px;
+    }
+
+    .navbar {
+        text-align: center;
+    }
+
+    .logo img {
+        width: 30%;
+        padding: 1rem 0;
+    }
+
+    .links-container {
+        text-align: center;
+    }
+
+    .links-container ul {
+        float: none;
+        margin-right: 0;
+        margin-left: 0;
+
     }
 }
 
