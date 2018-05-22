@@ -43,6 +43,7 @@ p, ul, ol {
     margin: 0 0 1rem;
     clear: both;
     font-weight: 200;
+    /* font-family: lora;*/
 }
 
 ol, ul {
@@ -76,9 +77,12 @@ a:hover, a:active {
     transition: all 0.2s ease;
 }
 
-.rows {
+.row {
     clear: both;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
+
 
 img {
     width: 100%;
@@ -200,7 +204,7 @@ footer {
 }
 
 .contact-divider {
-    color: white;
+    color: #CAA478;
     display: inline-block;
 }
 
