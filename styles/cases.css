@@ -25,7 +25,7 @@ p {
     line-height: 3rem;
 }
 
-ul {
+.indent {
     padding-left: 30px;
 }
 
@@ -60,6 +60,12 @@ h6 {
     font-weight: 400;
     color: #CAA478;
     text-transform: uppercase;
+}
+
+/* ---- BUTTON ---- */
+.button-row {
+    text-align: center;
+
 }
 
 /* ---- NAVIGATION ---- */
@@ -143,10 +149,33 @@ main {
 
 }
 
-/* ---- INTRO ---- */
+/* ---- CAPTIONS ---- */
+.caption {
+    font-size:1rem;
+    text-align:center;
+}
+
 /* ---- CHALLENGE ---- */
 /* ---- RESEARCH ---- */
+#research img {
+    width: 80%;
+    padding: 0 3rem;
+}
+
 /* ---- STRATEGY ---- */
+.personas img {
+    width: 80%;
+}
+
+.personas.one {
+    float: right;
+}
+
+.personas {
+    text-align: center;
+    padding-top: .5rem;
+}
+
 /* ---- DEVELOPMENT ---- */
 /* ---- CONCLUSION ---- */
 .bottom {
@@ -196,22 +225,30 @@ main {
         margin-right: 5rem;
     }
 
+    body {
+        font-size: 1.25rem;
+    }
+
     h5 {
         font-size: 1.75rem;
     }
 }
 
 @media (max-width: 750px) {
-    body {
-        font-size: 1.25rem;
-    }
+
 }
 
 @media (max-width: 600px) {
     .content {
         margin-left: 0;
         margin-right: 0;
-    }
-
+    } 
 
 }
+
+@media (max-width: 550px) {
+    .personas img {
+        width: 40%;
+    } 
+}
+
