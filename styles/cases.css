@@ -31,7 +31,7 @@ p {
 
 .container {
     padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
 }
 
 .even {
@@ -43,6 +43,14 @@ p {
     margin-right: 18rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
 }
 
 
@@ -177,10 +185,80 @@ main {
 }
 
 /* ---- DEVELOPMENT ---- */
+
+#development {
+    padding-bottom: 3.5rem;
+}
+.center {
+    text-align: center;
+}
+
+.half-half.one-half {
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.textN {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+
+}
+
+
+.clearfix {
+    overflow: auto;
+}
+
+.imgN img {
+    float: right;
+    width: 60%;
+}
+
+.imgF img {
+    float: right;
+    width: 90%;
+}
+
+
+/* ---- SOLUTION ---- */
+
+.features {
+    padding-top: 5rem;
+    padding-bottom: 5rem; 
+}
+
 /* ---- CONCLUSION ---- */
+.toby {
+    padding: 2rem 10rem;
+    width: 50%;
+}
+
+/* ---- UP NEXT ---- */
+
+
+.up_next h6 {
+    text-align: center;
+    padding-top: .5rem;
+}
+
+.up_next.content {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.up_next.container {
+    padding-top: 0;
+    width: 100%;
+}
+
 .bottom {
-    padding-left: none;
-    padding-right: none;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.bottom img {
+    width: 30%;
 }
 
 /* ----- MEDIA QUERIES WIDTH ---*/
@@ -209,6 +287,13 @@ main {
         margin-right: 10rem;
     }
 
+    .textN {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 0; 
+
+    }
+
 }
 
 @media (max-width: 930px) {
@@ -217,6 +302,14 @@ main {
         font-weight: 300;
         font-size: 2rem;
     }
+
+    .textN, 
+    .textF {
+        font-size: 1.25rem;
+    }
+
+
+
 }
 
 @media (max-width: 800px) {
@@ -232,6 +325,19 @@ main {
     h5 {
         font-size: 1.75rem;
     }
+
+    .one-half.column {
+        width: 95%;
+        padding-left: 5rem;
+        padding-right: 2rem;
+        margin: 1.5rem;
+    }
+
+    .imgN img,
+    .imgF img {
+        float: none;
+    }
+
 }
 
 @media (max-width: 750px) {
@@ -243,6 +349,10 @@ main {
         margin-left: 0;
         margin-right: 0;
     } 
+
+    .toby {
+        padding: 2rem 6rem;
+    }  
 
 }
 
