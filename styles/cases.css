@@ -77,9 +77,14 @@ h6 {
 }
 
 /* ---- NAVIGATION ---- */
-nav,
+/*nav,
 main {
     position:relative;
+} */
+
+.hero-content.container {
+    padding-top: 9rem;
+    padding-bottom: 1rem;
 }
 
 .navbar.container {
@@ -312,6 +317,13 @@ main {
 
 }
 
+
+@media (max-width: 830px) {
+    /*.container.toc {
+        padding-top: 3rem;
+    }*/
+}
+
 @media (max-width: 800px) {
     .content {
         margin-left: 5rem;
@@ -326,17 +338,29 @@ main {
         font-size: 1.75rem;
     }
 
-    .one-half.column {
+
+    .one-half.column.imgF,
+    .one-half.column.imgN {
+        text-align: center;
+    }
+
+    .one-half.column.feature {
         width: 95%;
         padding-left: 5rem;
         padding-right: 2rem;
         margin: 1.5rem;
-    }
+    } 
 
     .imgN img,
     .imgF img {
         float: none;
     }
+
+    /*.one-half.column.logo,
+    .one-half.column.links-container {
+        margin: 0;
+        width: 48%;
+    } */
 
 }
 
@@ -344,14 +368,19 @@ main {
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
     .content {
         margin-left: 0;
         margin-right: 0;
     } 
 
+    .one-half.column.feature {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    } 
+
     .toby {
-        padding: 2rem 6rem;
+        padding: 2rem 8rem;
     }  
 
 }
@@ -360,5 +389,10 @@ main {
     .personas img {
         width: 40%;
     } 
+
+    .hero-content.container {
+        padding-top: 13rem;
+    }
+
 }
 

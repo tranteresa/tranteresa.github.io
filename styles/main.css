@@ -89,6 +89,8 @@ img {
 }
 
 /* ----- NAVIGATION ----- */
+
+
 nav {
     position: fixed;
     right: 0;
@@ -115,14 +117,12 @@ nav a {
     color: #CAA478;
 }
 
-.logo
 
 /* ----- NAV ----- */
 
 nav {
     padding-bottom: 10px;
     background: #F6F6F6;
-    display: inline-block;
 
 }
 
@@ -258,6 +258,10 @@ footer {
         font-size: 16px;
     }
 
+    nav {
+        text-align: center;
+    }
+
     .navbar {
         text-align: center;
     }
@@ -275,8 +279,8 @@ footer {
         float: none;
         margin-right: 0;
         margin-left: 0;
-
-    }
+        
+    } 
 }
 
 @media (max-width: 425px) {
