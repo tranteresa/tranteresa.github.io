@@ -24,7 +24,35 @@ h6 {
 	padding-bottom: 5rem;
 }
 
+.caption.additional {
+	padding-left: 13rem;
+}
+
+.caption.additional.middle {
+	padding-left: 16rem;
+}
+
 /* --- MEDIA QUERIES --- */
+
+@media (max-width: 1000px) {
+	.caption.additional {
+	padding-left: 10rem;
+}
+
+	.caption.additional.middle {
+		padding-left: 13rem;
+	}
+}
+
+@media (max-width: 800px) {
+	.caption.additional {
+	padding-left: 0rem;
+}
+
+	.caption.additional.middle {
+		padding-left: 0rem;
+	}
+}
 
 @media (max-width: 600px) {
 	#logo_design div img {
