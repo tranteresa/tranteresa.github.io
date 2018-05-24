@@ -1,0 +1,39 @@
+/* --- BOTH --- */
+h6 {
+	padding-top: 6rem;
+}
+
+/* --- LOGO DESIGN PAGE --- */
+#logo_design div img {
+	width: 70%;
+	vertical-align: center;
+	padding: 1.5rem;
+	padding-left: 7rem;
+}
+
+.row.content.revisions {
+	padding-bottom: 5.5rem;
+}
+
+/* --- ADDITIONAL PAGE --- */
+.add img {
+	width: 70%;
+}
+
+.row.half-half {
+	padding-bottom: 5rem;
+}
+
+/* --- MEDIA QUERIES --- */
+
+@media (max-width: 600px) {
+	#logo_design div img {
+		padding-left: 6rem;
+	}
+}
+
+@media (max-width: 500px) {
+	#logo_design div img {
+		padding-left: 4.5rem;
+	}
+}
