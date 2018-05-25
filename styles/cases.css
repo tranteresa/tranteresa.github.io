@@ -76,11 +76,63 @@ h6 {
 
 }
 
+
+
+/* ----- SCROLL TO TOP 
+#return-to-top {
+    position: fixed;
+    bottom: 2.625rem;
+    right: 1rem;
+    -webkit-border-radius: 99;
+    -moz-border-radius: 99;
+    border: none;
+    display: none;
+    z-index: 100;
+    width: 2.625rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#return-to-top i {
+    font-size: 2rem;
+}
+
+#return-to-top i, #return-to-top span {
+    position: relative;
+    left: 0;
+    top: 0;
+    opacity: 0.75;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+} 
+
+#return-to-top span {
+    top: -6px;
+    font-weight: 400;
+    font-size: 0.85rem;
+    letter-spacing: 0.01rem;
+}
+
+#return-to-top:hover span {
+    top: -6px;
+    opacity: 1;
+}
+
+#return-to-top:hover i {
+    top: -3px;
+    color: mediumvioletred;
+    opacity: 1;
+}
+
 /* ---- NAVIGATION ---- */
 /*nav,
 main {
     position:relative;
 } */
+
 
 .hero-content.container {
     padding-top: 9rem;
