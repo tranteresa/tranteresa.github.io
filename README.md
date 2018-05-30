@@ -1,6 +1,6 @@
 # Portfolio
 
-Repo for my Product Designer/UX Researcher portfolio. Checkout my portfolio [here](http://teresatran.co).
+Checkout my portfolio [here](http://teresatran.co).
 
 ## Logo
 
@@ -40,7 +40,7 @@ Repo for my Product Designer/UX Researcher portfolio. Checkout my portfolio [her
 * [Animate CSS](http://daneden.me/animate) by Daniel Eden
 
 ## Resources
-* [Bloc.io] (https://www.bloc.io/?utm_campaign=search_bloc_brand&utm_adgroup=blockio---desktop-exact&utm_content=desktop&utm_term=bloc-io_exact&utm_source=adwords&utm_medium=cpc&gclid=EAIaIQobChMIorS7sISt2wIVV7jACh1BcA_KEAAYASAAEgIPFPD_BwE)
+* [Bloc.io](https://www.bloc.io/?utm_campaign=search_bloc_brand&utm_adgroup=blockio---desktop-exact&utm_content=desktop&utm_term=bloc-io_exact&utm_source=adwords&utm_medium=cpc&gclid=EAIaIQobChMIorS7sISt2wIVV7jACh1BcA_KEAAYASAAEgIPFPD_BwE)
 * [w3schools](https://www.w3schools.com/)
 
 ## Copyright
