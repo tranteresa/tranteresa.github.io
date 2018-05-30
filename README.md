@@ -1,12 +1,10 @@
 # Portfolio
 
-Repo for my Product Designer/UX Researcher portfolio. 
-
-Checkout my portfolio [here](http://teresatran.co).
+Repo for my Product Designer/UX Researcher portfolio. Checkout my portfolio [here](http://teresatran.co).
 
 ## Logo
 
-![logo-64px](logo-64px.png)
+![logo](https://github.com/tranteresa/tranteresa.github.io/blob/master/readme_assets/logo.png)
 
 
 ## Features
@@ -18,7 +16,7 @@ Checkout my portfolio [here](http://teresatran.co).
 * About Me
 
 ## Screenshots
-![homepage](https://github.com/tranteresa/bloc-jams/blob/master/readme_assets/homepage.gif)
+![homepage](https://github.com/tranteresa/tranteresa.github.io/blob/master/readme_assets/homepage.gif)
 
 
 ## Languages & Tools
