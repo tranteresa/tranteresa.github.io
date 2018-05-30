@@ -1,8 +1,8 @@
 # Portfolio
 
-This web page showcases work for my Product Designer/UX Researcher portfolio. I designed the portfolio pages on SketchApp and deployed the code on Github Pages.
+Repo for my Product Designer/UX Researcher portfolio. 
 
-Checkout my portfolio [here](teresatran.co).
+Checkout my portfolio [here](http://teresatran.co).
 
 ## Logo
 
