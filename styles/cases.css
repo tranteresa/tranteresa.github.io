@@ -318,6 +318,16 @@ main {
     width: 30%;
 }
 
+
+
+/* -- Everseed CS --*/
+.contact-everseed {
+    bottom: 0;
+    width: 100%;
+}
+
+
+
 /* ----- MEDIA QUERIES WIDTH ---*/
 @media (max-width: 1100px) {
     .content {
