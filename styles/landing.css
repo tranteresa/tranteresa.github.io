@@ -256,6 +256,14 @@ nav {
         font-size: 16px;
     }
 
+    .one-half.column.logo, .one-half.column.links-container {
+        width: 100%;
+    }
+
+    .one-half.column.links-container ul {
+        display: inline-block;
+    }
+
 
     .hero {
         padding-top: 12rem;
@@ -280,8 +288,9 @@ nav {
 }
 
 
-@media (max-width: 375px) {
-
+@media (max-width: 350px) {
+    .one-half.column.links-container ul {
+        font-size: 1rem;
+        display: block;
+    }
 }
-
-
