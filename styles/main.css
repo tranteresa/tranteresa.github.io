@@ -228,7 +228,7 @@ footer {
 
 
 /* ----- MEDIA QUERIES ----- */
-@media (max-width: 1200px) {
+@media (max-width: 950px) {
 
 }
 
@@ -237,11 +237,15 @@ footer {
     h2 {
         font-size: 3rem;
     }
-}
 
-@media (max-width: 700px) {
     .logo img {
         width: 40%;
+    }
+}
+
+@media (max-width: 850px) {
+    .logo img {
+        width: 50%;
     }
 
 }
@@ -250,6 +254,10 @@ footer {
     
     main ol li, main ul li {
         margin-left: 1.25rem;
+    }
+
+    .logo img {
+        width: 60%;
     }
 }
 
@@ -267,7 +275,7 @@ footer {
     }
 
     .logo img {
-        width: 30%;
+        width: 35%;
         padding: 1rem 0;
     }
 
@@ -282,6 +290,9 @@ footer {
         
     } 
 }
+
+
+
 
 @media (max-width: 425px) {
     /*

@@ -68,7 +68,7 @@ nav {
 }
 
 .scroll {
-    background-color: rgba(0,0,0,0);
+    background: transparent;
 }
 
 
@@ -171,10 +171,19 @@ nav {
 
 } 
 
+@media (max-width: 1065px){
+    .parallax {
+        background-size: 75%;
+        height: 35vh;
+    }
+}
+
 @media (max-width: 950px) {
     .bio-text {
         font-size: 1.25rem;
     }
+
+
 }
 
 @media (max-width: 900px) {
@@ -183,7 +192,7 @@ nav {
     }
 
     .scroll h5 {
-    padding: 0 5rem;
+        padding: 0 5rem;
     }
 
     .hero h1 {
@@ -196,6 +205,7 @@ nav {
 
     .parallax {
         background-size: 70%;
+        height: 20vh;
     }
     
 
@@ -244,6 +254,19 @@ nav {
 
 }
 
+@media (max-width: 675px) {
+
+    .parallax {
+        background-size: 60%;
+    }
+
+    .container.hero-content {
+        max-height: 900px;
+    }
+
+}
+
+
 @media (max-width: 600px) {
     .bio-text {
         padding: 0;
@@ -284,8 +307,12 @@ nav {
         width: 1rem;
     }
 
+    .container.hero-content {
+        max-height: 600px;
+    }
     
 }
+
 
 
 @media (max-width: 350px) {
@@ -293,4 +320,5 @@ nav {
         font-size: 1rem;
         display: block;
     }
+
 }
