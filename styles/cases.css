@@ -335,14 +335,28 @@ main {
 
 
 /* -- Everseed CS --*/
+
+
 .contact-everseed {
     bottom: 0;
+    right: 0;
+    position: fixed;
     width: 100%;
+}
+
+.inprogress {
+    text-align: center;
+
 }
 
 
 
+
 /* ----- MEDIA QUERIES WIDTH ---*/
+@media (max-width: 1470px) {
+
+}
+
 @media (max-width: 1200px) {
     .gif-flinto {
         padding-left: 11rem;

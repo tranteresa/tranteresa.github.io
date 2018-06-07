@@ -279,17 +279,20 @@ footer {
         padding: 1rem 0;
     }
 
-    .links-container {
-        text-align: center;
-    }
-
     .links-container ul {
         float: none;
         margin-right: 0;
         margin-left: 0;
         
     } 
-}
+
+    .one-half.column.logo, .one-half.column.links-container {
+        width: 100%;
+    }
+
+    .one-half.column.links-container ul {
+        display: inline-block;
+    }
 
 
 
