@@ -76,6 +76,19 @@ h6 {
 
 }
 
+/* ---- GIF ---- */
+.gif {
+    max-width: 80%;
+}
+
+.gif-flinto {
+    max-width: 50%;
+    padding-left: 13rem;
+}
+
+.gif-xsm {
+    max-width: 60%;
+}
 
 
 /* ----- SCROLL TO TOP 
@@ -256,11 +269,12 @@ main {
     box-sizing: border-box;
 }
 
-.textN {
-    padding-top: 7rem;
-    padding-bottom: 10rem;
-
+.row.half-half {
+    padding-top: 2rem;
+    padding-bottom: 15rem;
 }
+
+
 
 
 .clearfix {
@@ -274,7 +288,7 @@ main {
 
 .imgF img {
     float: right;
-    width: 90%;
+    width: 80%;
 }
 
 
@@ -329,11 +343,34 @@ main {
 
 
 /* ----- MEDIA QUERIES WIDTH ---*/
+@media (max-width: 1200px) {
+    .gif-flinto {
+        padding-left: 11rem;
+        max-width: 60%
+    }
+}
+
 @media (max-width: 1100px) {
     .content {
         margin-left: 15rem;
         margin-right: 15rem;
     }
+}
+
+@media (max-width: 1000px) {
+    h5 {
+        text-align: left;
+        font-weight: 300;
+        font-size: 2rem;
+    }
+
+    .textN, 
+    .textF {
+        font-size: 1.25rem;
+    }
+
+
+
 }
 
 @media (max-width: 970px) {
@@ -363,30 +400,12 @@ main {
 
 }
 
-@media (max-width: 930px) {
-    h5 {
-        text-align: left;
-        font-weight: 300;
-        font-size: 2rem;
-    }
-
-    .textN, 
-    .textF {
-        font-size: 1.25rem;
-    }
 
 
 
-}
 
 
-@media (max-width: 830px) {
-    /*.container.toc {
-        padding-top: 3rem;
-    }*/
-}
-
-@media (max-width: 800px) {
+@media (max-width: 870px) {
     .content {
         margin-left: 5rem;
         margin-right: 5rem;
@@ -418,12 +437,25 @@ main {
         float: none;
     }
 
+    .row.half-half {
+        padding-top: 2rem;
+        padding-bottom: 8rem;
+    }
+
+
     /*.one-half.column.logo,
     .one-half.column.links-container {
         margin: 0;
         width: 48%;
     } */
 
+}
+
+@media (max-width: 800px) {
+    .gif-flinto {
+        padding-left: 8rem;
+        max-width: 70%
+    }
 }
 
 @media (max-width: 750px) {
@@ -445,6 +477,10 @@ main {
         padding: 2rem 8rem;
     }  
 
+    .gif-flinto {
+        padding-left: 7rem;
+    }
+
 }
 
 @media (max-width: 550px) {
@@ -456,5 +492,12 @@ main {
         padding-top: 13rem;
     }
 
+
+
 }
 
+@media (max-width: 500px) {
+    .gif-flinto {
+        max-width: 60%;
+    }
+}
