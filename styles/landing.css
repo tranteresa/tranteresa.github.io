@@ -69,6 +69,7 @@ nav {
 
 .scroll {
     background: transparent;
+    margin-bottom: -80px;
 }
 
 
@@ -79,7 +80,7 @@ nav {
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
+    background-position: center 292px;
     background-repeat: no-repeat;
     background-size: auto;
     height: 40vh;
@@ -98,7 +99,7 @@ nav {
 }
 
 
-/* ----- CASE STUDIES ----- */
+/* ----- CASE STUDIES 
 
 .para {
     font-size: 1.25rem;
@@ -106,11 +107,11 @@ nav {
     padding-bottom: 10rem;
     padding-left: 3.5rem;
     padding-right: 3.5rem;
-}
+} 
 
 .projects.para {
     text-align: center;
-}
+} ----- */
 
 /* .projects.case {
     -webkit-transition: all 0.1s ease-in;
@@ -158,7 +159,7 @@ nav {
 /* ----- MEDIA QUERIES WIDTH ---*/
 @media (max-width: 1200px) {
     .hero {
-        font-size: 1rem;
+        font-size: 16px;
         letter-spacing: 0rem;
     }
     .hero .container {
@@ -180,7 +181,7 @@ nav {
 
 @media (max-width: 950px) {
     .bio-text {
-        font-size: 1.25rem;
+        font-size: 16px;
     }
 
 
@@ -191,9 +192,6 @@ nav {
         font-size: 3rem;
     }
 
-    .scroll h5 {
-        padding: 0 5rem;
-    }
 
     .hero h1 {
         font-size: 4rem;
@@ -221,18 +219,6 @@ nav {
         padding-bottom: 2rem;
     }
 
-}
-
-@media (max-width: 750px) {
-
-    .hero h1 {
-        font-size: 3rem;
-    }
-
-    .hero h5 {
-        font-size: 1.5rem;
-    }
-
     .short.six.columns {
         display: block;
         margin-left: auto;
@@ -242,7 +228,7 @@ nav {
     } 
 
     .bio-text {
-        padding: 0 6rem;
+        padding: 0 5rem;
     }
 
     .bio-pic {
@@ -251,6 +237,20 @@ nav {
         margin-left: auto;
         float: none;
     }
+
+}
+
+@media(max-width: 850px) {
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .hero h5 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 750px) {
 
 }
 
@@ -264,13 +264,20 @@ nav {
         max-height: 900px;
     }
 
+    .hero h5 {
+        padding: 0 1rem;
+        font-size: 16px;
+    }
+
+    .bio-text {
+        padding: 0;
+    }
+
 }
 
 
 @media (max-width: 600px) {
-    .bio-text {
-        padding: 0;
-    }
+
 }
 
 
@@ -295,6 +302,11 @@ nav {
 
     .parallax {
         background-size: 65%;
+        background-position: center 400px;
+    }
+
+    .scroll {
+        padding-top: 30px;
     }
 
     .bio-pic {
@@ -313,11 +325,17 @@ nav {
     
 }
 
+@media (max-width: 450px) {
+    .divider {
+        display: none;
+    }
+}
+
 
 
 @media (max-width: 350px) {
     .one-half.column.links-container ul {
-        font-size: 1rem;
+        font-size: 16px;
         display: block;
     }
 
