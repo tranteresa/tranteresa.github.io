@@ -5,14 +5,14 @@ h6 {
 
 /* --- LOGO DESIGN PAGE --- */
 #logo_design div img {
-	width: 70%;
-	vertical-align: center;
-	padding: 1.5rem;
-	padding-left: 7rem;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
 }
 
 .row.content.revisions {
-	padding-bottom: 5.5rem;
+	padding-bottom: 15rem;
 }
 
 /* --- ADDITIONAL PAGE --- */
@@ -29,13 +29,6 @@ h6 {
 /* --- MEDIA QUERIES --- */
 
 @media (max-width: 1000px) {
-	.caption.additional {
-		padding-left: 10rem;
-	}
-
-	.caption.additional.middle {
-		padding-left: 13rem;
-	}
 
 	.row.half-half {
 		padding-top: 5rem;
@@ -52,13 +45,9 @@ h6 {
 }
 
 @media (max-width: 600px) {
-	#logo_design div img {
-		padding-left: 6rem;
-	}
+
 }
 
 @media (max-width: 500px) {
-	#logo_design div img {
-		padding-left: 4.5rem;
-	}
+
 }

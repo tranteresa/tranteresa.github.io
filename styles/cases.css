@@ -39,10 +39,8 @@ p {
 }
 
 .content {
-    margin-left: 18rem;
-    margin-right: 18rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
 
 .left {
@@ -53,6 +51,23 @@ p {
     float: right;
 }
 
+.space-5 {
+    padding-top: 5rem;
+}
+
+.space-10 {
+    padding-top: 10rem;
+}
+
+.space-15 {
+    padding-top: 15rem;
+}
+
+.space-neg10 {
+    margin-top: -5rem;
+}
+
+/* -- Image Styling -- */
 
 
 /* -- TITLE -- */
@@ -60,14 +75,21 @@ h5 {
     text-align: left;
     font-weight: 400;
     text-transform: uppercase;
+    font-size: 35px;
 }
 
 h6 {
+    font-size: 25px;
     padding-top: 5rem;
     text-align: left;
     font-weight: 400;
     color: #CAA478;
     text-transform: uppercase;
+}
+
+p {
+    font-size: 22px;
+    line-height: 3.5rem;
 }
 
 /* ---- BUTTON ---- */
@@ -82,8 +104,9 @@ h6 {
 }
 
 .gif-flinto {
-    max-width: 50%;
-    padding-left: 13rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .gif-xsm {
@@ -147,6 +170,10 @@ main {
 } */
 
 
+.mainnav_cases {
+    position: relative;
+}
+
 .hero-content.container {
     padding-top: 9rem;
     padding-bottom: 1rem;
@@ -155,6 +182,9 @@ main {
 .navbar.container {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    background-color: #F6F6F6;
+    width: 100%;
 }
 
 .navbar-toc {
@@ -167,6 +197,7 @@ main {
 .navbar-list {
     list-style: none;
     position: sticky;
+    background-color: #F6F6F6;
 }
 
 .navbar-list a {
@@ -180,6 +211,7 @@ main {
     margin-right: 20px;
     line-height: 4rem;
     font-size: 1.25rem;
+    background-color: #F6F6F6;
 }
 
 .navbar-toc a.active {
@@ -192,24 +224,12 @@ main {
   position: fixed;
   top: 0;
   width: 100%
+
 }
 
 .sticky + .content {
   padding-top: 60px;
 }
-
-/* #stickymenu {
-    overflow: hidden;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    display: inline;
-}
-
-#stickymenu + .content {
-    padding-top: 60px;
-} */
 
 
 
@@ -229,8 +249,20 @@ main {
 
 /* ---- CAPTIONS ---- */
 .caption {
-    font-size:1rem;
-    text-align:center;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* ---- QUOTES ---- */
+.quote.section {
+    background-color: #CAA478;
+}
+
+.center.quote {
+    font-family: 'poppins', san-serifs;
+    font-size: 28px;
+    line-height: 6rem;
+    color: #FFF;
 }
 
 /* ---- CHALLENGE ---- */
@@ -259,7 +291,9 @@ main {
 #development {
     padding-bottom: 3.5rem;
 }
-.center {
+.center,
+.center h5,
+.center h6 {
     text-align: center;
 }
 
@@ -296,12 +330,13 @@ main {
 
 .features {
     padding-top: 5rem;
-    padding-bottom: 5rem; 
 }
 
 /* ---- CONCLUSION ---- */
 .toby {
-    padding: 2rem 10rem;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
     width: 50%;
 }
 
@@ -333,6 +368,92 @@ main {
 }
 
 
+/* -- HappyPaws CS --*/
+
+
+
+.row.content.indent ul li {
+    list-style-type: none;
+}
+
+.button-row a,
+a.button-two {
+    color: #FFF;
+}
+
+/* Prototype */
+
+.marvel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center.prototype {
+    padding-top: 2rem;
+}
+
+
+
+/* Core Feature Circles */
+.one-third.column.core {
+    text-align: center;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 16px;
+  color: #fff;
+  line-height: 100px;
+  text-align: center;
+  background: #CAA478;
+  margin: auto;
+}
+
+
+/* My Role-Deliverables-Tools */
+.one-third.column.role img {
+    width: 30%;
+    padding: 0 3rem;
+}
+
+.one-third.column.role {
+    text-align: center;
+}
+
+.one-third.column.role h5 {
+    text-align: center;
+    font-size: 22px;
+    padding: 1rem;
+}
+
+.one-third.column.role ul li {
+    list-style-type: none;
+}
+
+/* Wide Images */
+.wide-image-feature.container img {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wide-image-feature-50.container img {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#LMD {
+    text-align: center;
+}
+
+
+
 
 /* -- Everseed CS --*/
 
@@ -353,23 +474,7 @@ main {
 
 
 /* ----- MEDIA QUERIES WIDTH ---*/
-@media (max-width: 1470px) {
 
-}
-
-@media (max-width: 1200px) {
-    .gif-flinto {
-        padding-left: 11rem;
-        max-width: 60%
-    }
-}
-
-@media (max-width: 1100px) {
-    .content {
-        margin-left: 15rem;
-        margin-right: 15rem;
-    }
-}
 
 @media (max-width: 1000px) {
     h5 {
@@ -412,6 +517,23 @@ main {
 
     }
 
+    /* -- TITLE -- */
+    h5 {
+        text-align: left;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+
+    h6 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 3.5rem;
+    }
+
 }
 
 
@@ -423,14 +545,6 @@ main {
     .content {
         margin-left: 5rem;
         margin-right: 5rem;
-    }
-
-    body {
-        font-size: 1.25rem;
-    }
-
-    h5 {
-        font-size: 1.75rem;
     }
 
 
@@ -466,9 +580,12 @@ main {
 }
 
 @media (max-width: 800px) {
-    .gif-flinto {
-        padding-left: 8rem;
-        max-width: 70%
+    .one-third.column.role {
+        width: 100%;
+        padding-bottom: 10rem;
+    }
+    .one-third.column.role img {
+        width: 15%;
     }
 }
 
@@ -487,13 +604,6 @@ main {
         padding-right: 0rem;
     } 
 
-    .toby {
-        padding: 2rem 8rem;
-    }  
-
-    .gif-flinto {
-        padding-left: 7rem;
-    }
 
 }
 
@@ -507,11 +617,8 @@ main {
     }
 
 
-
 }
 
 @media (max-width: 500px) {
-    .gif-flinto {
-        max-width: 60%;
-    }
+
 }

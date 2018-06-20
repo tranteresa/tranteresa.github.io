@@ -18,3 +18,4 @@ function myFunction() {
     stickymenu.classList.remove("sticky");
   }
 }
+

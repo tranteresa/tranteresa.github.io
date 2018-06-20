@@ -25,6 +25,7 @@
 - Media Queries
 */
 
+/* ------- PORTFOLIO ------------*/
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -174,7 +175,7 @@ input[type="button"] {
   display: inline-block;
   height: 38px;
   padding: 0 30px;
-  color: #555;
+  color: #CAA478;
   text-align: center;
   font-size: 11px;
   font-weight: 500;
@@ -185,7 +186,7 @@ input[type="button"] {
   white-space: nowrap;
   background-color: transparent;
   border-radius: 4px;
-  border: 1px solid #C5C5C5;
+  border: 1px solid #CAA478;
   cursor: pointer;
   box-sizing: border-box; }
 .button:hover,
@@ -198,17 +199,20 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  color: #CAA478;
+  color: #FFF;
   border-color: #CAA478;
-  outline: 0; }
+  outline: 0; 
+  background-color: #CAA478}
+
+/* Solid White */
 .button.button-primary,
 button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  color: #FFF;
-  background-color: #33C3F0;
-  border-color: #33C3F0; }
+  color: #CAA478;
+  background-color: #FFF;
+  border-color: #FFF; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -220,9 +224,56 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #1EAEDB;
-  border-color: #1EAEDB; }
+  background-color: #CAA478;
+  border-color: #CAA478; }
 
+/* Solid Gold */
+.button-two,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #FFF;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #CAA478;
+  border-radius: 4px;
+  border: 1px solid #CAA478;
+  cursor: pointer;
+  box-sizing: border-box; }
+.button-row a {
+  color: #FFF;
+}  
+.button-two:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button-two:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #FFF;
+  border-color: #C5C5C5;
+  background-color: #C5C5C5;
+  outline: 0; }
+.button-two a, .button-two a:link, .button-two a:visited {
+    color: #FFF;
+}
+
+.button-row a, a.button-two {
+    color: #FFF;
+}
 
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
