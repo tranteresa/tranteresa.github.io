@@ -218,10 +218,6 @@ footer {
     text-align: center;
 }
 
-.contact-symbols {
-    color: #C5C5C5;
-}
-
 .contact-divider {
     color: #CAA478;
     display: inline-block;
@@ -232,9 +228,13 @@ footer {
     padding: 0 1rem;
 }
 
-.contact-text i:hover {
-    color: #CAA478;
+.fa-stack-1x:hover {
+    color: #C5C5C5;
     transition: all 0.3s ease-out;
+}
+
+.fa-circle {
+    color: #FFF;
 }
 
 .copyright {

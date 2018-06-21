@@ -139,6 +139,15 @@ p {
 
 /* ----- CASE STUDIES ----- */
 
+#happypaws #logo {
+    width: 200px;
+} 
+#everseed #logo {
+    width: 35%;
+    padding-bottom: 1rem;
+    margin-left: -9px;
+} 
+
 .section { 
     padding: 67px 0 61px; 
     min-height: 100vh; 
@@ -177,12 +186,8 @@ p {
     margin: 5rem;
 }
 
-.cs.five.columns {
-    padding: 20rem 0;
-}
-
 .cs-section p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #casestudies {
@@ -190,48 +195,69 @@ p {
 }
 
 .cs-padding {
-    padding: 10rem;
+    padding: 5rem;
 }
 
 /* happypaws */
+.break {
+    display: none;
+}
 
 #happypaws {
     background-image: url("../assets/cs-happypaws/homepage_twist_3.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center bottom;
-    height: 700px;
+    height: 800px;
 }
 
-#happypaws img {
-    width: 85%;
+#happypaws .cs.one-half.column.img img {
     float: left;
 }
 
-#happypaws .cs.five.columns {
-    padding: 15rem 0;
+.cs.one-half.column.text {
+    padding-top: 20rem;
+    padding-left: 20px;
+    padding-right: 20px;
 }
+
 
 
 /* everseed */
 #everseed {
     background-image: url("../assets/cs-everseed/homepage_background.png");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     background-position: center;
-    height: 700px;
+    height: 800px;
     color: #FFF;
 }
 
-#everseed .cs.seven.columns {
-    padding: 5rem 2rem;
-
+#everseed .cs.one-half.column.img img {
+    float: right;
+    padding-top: 15rem;
 }
 
-#everseed .cs.five.columns {
-    padding: 15rem 0;
+/* animation }
+.es-ani {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(150px);
+    -ms-transform: translateY(150px);
+    transform: translateY(150px);
+    transition: visibility 1s, opacity 1s, -webkit-transform 1s;
+    transition: transform 1s, visibility 1s, opacity 1s;
+    transition: transform 1s, visibility 1s, opacity 1s, -webkit-transform 1s;
 }
 
+.cs-section .section__content.animated-in > *, .section .section__aside.animated-in {
+    -webkit-transform: translate(0);
+    -ms-transform: translate(0);
+    transform: translate(0);
+    opacity: 1;
+    visibility: visible;
+
+*/
 
 
 /* ----- CASE STUDIES 
@@ -259,9 +285,7 @@ p {
 
 
 /* ----- ABOUT ----- */
-.about {
-    background-color: #F6F6F6;
-}
+
 
 .bio-text p {
     line-height: 2.5rem;
@@ -293,7 +317,38 @@ p {
 
 
 /* ----- MEDIA QUERIES WIDTH ---*/
-@media (max-width: 1200px) {
+@media (min-width: 1645px) {
+    .top-cs {
+        margin-top: 27rem;
+    }
+
+
+}
+
+@media (max-width: 1645px) {
+    .top-cs {
+        margin-top: 10rem;
+    }
+}
+
+@media (max-width: 1400px) {
+    #happypaws {
+        height: 700px;
+    }
+    #everseed { 
+        height: 700px;
+    }
+
+    #everseed #logo {
+        margin-left: -6px;
+    } 
+
+}
+
+
+
+
+@media (max-width: 1310px) {
     .hero {
         font-size: 16px;
         letter-spacing: 0rem;
@@ -304,23 +359,19 @@ p {
         padding-right: 1.5rem;
     }
 
+    .break {
+        display: block;
+    }
+
+    #happypaws .cs.one-half.column.img img {
+        padding-top: 10rem;
+    }
     .top-cs {
-        margin-top: -100px;
-    }
-
-    #happypaws {
-        height: 500px;
-    }
-
-    #everseed {
-        height: 600px;
+        margin-top: 0rem;
     }
 
 } 
 
-@media (max-width: 1100px) {
-
-}
 
 @media (max-width: 1065px){
     .parallax {
@@ -333,13 +384,32 @@ p {
         margin-left: 3rem;
     }
 
+    #happypaws .cs.row {
+        margin-top: 6em;
+    }
+
+    #happypaws .cs.one-half.column.img img {
+        padding-top: 17rem;
+    }
+
 }
 
-@media (max-width: 920px) {
+@media (max-width: 1000px) {
+    .cs-section p {
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 3rem;
+        font-weight: 400;
+    }
+
+}
+
+@media (max-width: 900px) {
     h2 {
         font-size: 3rem;
     }
-
 
     .hero h1 {
         font-size: 4rem;
@@ -354,7 +424,6 @@ p {
         height: 20vh;
     }
     
-
     .case.four.columns {
         display: block;
         margin-left: auto;
@@ -389,6 +458,57 @@ p {
 }
 
 @media(max-width: 850px) {
+    .break {
+        display: none;
+    }
+
+    #happypaws {
+        background-position: center;
+        height: 950px;
+    }
+    #everseed { 
+        height: 950px;
+    }
+
+    #happypaws .cs.one-half.column.img img {
+        padding-top: 3rem;
+        float: none;
+        width: 75%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #everseed .cs.one-half.column.img img {
+        float: none;
+        padding-top: 3rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cs.one-half.column.text {
+        padding-top: 3rem;
+
+    }
+
+    .cs.one-half.column,
+    .cs.one-half.column h3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .one-half.column  {
+        margin-left: 0%;
+    }
+
+
+
+}
+
+
+@media(max-width: 800px) {
+
     .hero h1 {
         font-size: 30px;
     }
@@ -396,14 +516,14 @@ p {
     .hero h5 {
         font-size: 18px;
     }
-}
 
-@media (max-width: 750px) {
     .indent {
         display: none;
     }
 
+
 }
+
 
 @media (max-width: 675px) {
 
@@ -424,13 +544,15 @@ p {
         padding: 0;
     }
 
-
-
 }
 
-
-@media (max-width: 600px) {
-
+@media(max-width: 600px) {
+    #happypaws {
+        height: 800px;
+    }
+    #everseed { 
+        height: 800px;
+    }
 }
 
 
@@ -479,13 +601,32 @@ p {
     .parallax {
         background-position: center 450px;
     }
+
+    .top-cs {
+        margin-top: 30rem;
+    }
+
+    #happypaws .cs.one-half.column.img img {
+        padding-top: 0rem;
+    }
+
     
 }
+
+
 
 @media (max-width: 450px) {
     .divider {
         display: none;
     }
+    #happypaws {
+        height: 700px;
+    }
+    #everseed { 
+        height: 700px;
+    }
+
+
 }
 
 
