@@ -71,7 +71,7 @@ nav {
 .hero-content {
     text-align: center;
     background-color: transparent;
-    transition: all 0.5s ease;
+    transition: all 5s ease-in;
 }
 
 h1 {
@@ -113,10 +113,53 @@ p {
     width: 100%;
 }
 
+/* ----- Animated ----- */
 
 .fold.animated {
     animation-delay: .75s;
 }
+
+#home .animated.fadeIn {
+    animation-duration: 3s;
+}
+
+{
+    -webkit-animation: 1.5s ease 0s normal forwards 1 fadein;
+    animation: 1.5s ease 0s normal forwards 1 fadein;
+}
+
+@keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+/* animation }
+.es-ani {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(150px);
+    -ms-transform: translateY(150px);
+    transform: translateY(150px);
+    transition: visibility 1s, opacity 1s, -webkit-transform 1s;
+    transition: transform 1s, visibility 1s, opacity 1s;
+    transition: transform 1s, visibility 1s, opacity 1s, -webkit-transform 1s;
+}
+
+.cs-section .section__content.animated-in > *, .section .section__aside.animated-in {
+    -webkit-transform: translate(0);
+    -ms-transform: translate(0);
+    transform: translate(0);
+    opacity: 1;
+    visibility: visible;
+
+*/
 
 
 
@@ -140,12 +183,12 @@ p {
 /* ----- CASE STUDIES ----- */
 
 #happypaws #logo {
-    width: 200px;
+    width: 175px;
 } 
 #everseed #logo {
-    width: 35%;
-    padding-bottom: 1rem;
-    margin-left: -9px;
+    width: 125px;
+    padding-bottom: 10px;
+    margin-left: -5px;
 } 
 
 .section { 
@@ -238,27 +281,6 @@ p {
     padding-top: 15rem;
 }
 
-/* animation }
-.es-ani {
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transform: translateY(150px);
-    -ms-transform: translateY(150px);
-    transform: translateY(150px);
-    transition: visibility 1s, opacity 1s, -webkit-transform 1s;
-    transition: transform 1s, visibility 1s, opacity 1s;
-    transition: transform 1s, visibility 1s, opacity 1s, -webkit-transform 1s;
-}
-
-.cs-section .section__content.animated-in > *, .section .section__aside.animated-in {
-    -webkit-transform: translate(0);
-    -ms-transform: translate(0);
-    transform: translate(0);
-    opacity: 1;
-    visibility: visible;
-
-*/
-
 
 /* ----- CASE STUDIES 
 
@@ -343,6 +365,10 @@ p {
         margin-left: -6px;
     } 
 
+    #happypaws .cs.one-half.column.img img {
+        padding-top: 10rem;
+    }
+
 }
 
 
@@ -363,9 +389,7 @@ p {
         display: block;
     }
 
-    #happypaws .cs.one-half.column.img img {
-        padding-top: 10rem;
-    }
+
     .top-cs {
         margin-top: 0rem;
     }
@@ -404,9 +428,13 @@ p {
         font-weight: 400;
     }
 
+    .break {
+        display: none;
+    }
+
 }
 
-@media (max-width: 900px) {
+@media (max-width: 925px) {
     h2 {
         font-size: 3rem;
     }
@@ -458,9 +486,6 @@ p {
 }
 
 @media(max-width: 850px) {
-    .break {
-        display: none;
-    }
 
     #happypaws {
         background-position: center;
@@ -502,7 +527,13 @@ p {
         margin-left: 0%;
     }
 
-
+    #happypaws #logo {
+        width: 125px;
+    } 
+    #everseed #logo {
+        width: 110px;
+        margin-left: 0px;
+    } 
 
 }
 
@@ -560,15 +591,6 @@ p {
     body {
         font-size: 16px;
     }
-
-    .one-half.column.logo, .one-half.column.links-container {
-        width: 100%;
-    }
-
-    .one-half.column.links-container ul {
-        display: inline-block;
-    }
-
 
     .hero {
         padding-top: 12rem;
