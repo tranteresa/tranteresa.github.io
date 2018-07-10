@@ -80,7 +80,7 @@ h1 {
 
 h3 {
     text-align: left;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 p {
@@ -425,7 +425,6 @@ p {
 
     h3 {
         font-size: 3rem;
-        font-weight: 400;
     }
 
     .break {
