@@ -83,7 +83,7 @@ a:hover, a:active {
     transition: all 0.2s ease;
 }
 
-.row {
+.about .row {
     clear: both;
     padding-left: 3rem;
     padding-right: 3rem;
