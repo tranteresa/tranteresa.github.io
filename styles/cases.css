@@ -243,8 +243,11 @@ main {
     opacity: 0.5;
 }
 
-.hero img {
-
+.hero.everseed img {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 /* ---- CAPTIONS ---- */
