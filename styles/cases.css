@@ -68,12 +68,21 @@ p {
 }
 
 /* -- Image Styling -- */
+hr.underline {
+    border: 0;
+    height: 3px;
+    background-color: #4A4A4A;
+    width: 40px;
+    border-radius: 25px;
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
 
 
 /* -- TITLE -- */
 h5 {
     text-align: left;
-    font-weight: 400;
+    font-weight: 500;
     text-transform: uppercase;
     font-size: 35px;
 }
@@ -258,7 +267,8 @@ main {
 
 /* ---- QUOTES ---- */
 .quote.section {
-    background-color: #CAA478;
+    background-color: rgba(202,164,120,0.65);
+
 }
 
 .center.quote {
@@ -267,6 +277,15 @@ main {
     line-height: 6rem;
     color: #FFF;
     font-style: italic;
+}
+
+.quote .container {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.quote p {
+    margin-bottom: 0;
 }
 
 /* ---- CHALLENGE ---- */
@@ -590,6 +609,10 @@ a.button-two {
     }
     .one-third.column.role img {
         width: 15%;
+    }
+
+    .column, .columns {
+        margin-left: 0;
     }
 }
 
