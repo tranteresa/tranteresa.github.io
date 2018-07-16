@@ -126,7 +126,7 @@ body {
   font-size: 16px; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 300;
-  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-family: "Poppins", "Helvetica", "Arial", sans-serif;
   color: #222; }
 
 

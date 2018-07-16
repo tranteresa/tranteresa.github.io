@@ -1,7 +1,7 @@
 body {
     color: #4A4A4A;
     word-wrap: break-word;
-    font-family: 'poppins', Sans-serif;
+    font-family: "Poppins", "Helvetica", "Arial", sans-serif;
     background-color: transparent;
 }
 
@@ -10,14 +10,14 @@ h1,h2,h3,h4,h5,h6 {
     display: block;
     clear: both;
     letter-spacing: normal;
-    font-family: 'poppins', Sans-serif;
+    font-family: "Poppins", "Helvetica", "Arial", sans-serif;
     position: relative;
     text-align: center;
     text-transform: none;
 }
 
 p {
-    font-family: 'roboto', Sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
 }
 
